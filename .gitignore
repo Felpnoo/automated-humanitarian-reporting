@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Arquivos gerados pelo script (não queremos versionar o resultado, só o código)
+*.pdf
+*.csv
+raw_shelter_data.csv
+Daily_Shelter_Report.pdf
+
+# Diretórios de ambiente (caso crie algum sem querer)
+.venv/
+.env
+
+# Nix artifacts
+result
