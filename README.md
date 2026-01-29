@@ -46,14 +46,19 @@ pip install pandas fpdf openpyxl
 
 # 3. Run the pipeline
 python main.py
-📂 Project Structure
+
+# 📂 Project Structure
+
+```tree
 .
 ├── flake.nix            # NixOS Environment Configuration (Infrastructure as Code)
 ├── flake.lock           # Dependency Lockfile for reproducibility
 ├── main.py              # Core Logic (Data Generation -> Cleaning -> PDF)
 ├── .gitignore           # Git ignore rules
 └── README.md            # Documentation
-📊 Sample Output
+```
+
+# 📊 Sample Output
 After running the script, two files are generated:
 
 raw_shelter_data.csv: A simulated dataset containing errors (e.g., "25 years", "active", "  MARIA ").
@@ -66,7 +71,7 @@ Average Age Statistic.
 
 A standardized table with cleaned data (Title Case Names, Standardized Status).
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 Language: Python 3.13
 
 Data Processing: Pandas (ETL)
